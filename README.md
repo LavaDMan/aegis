@@ -12,11 +12,11 @@ It started as a supply chain immune system. It became the operating layer for ev
 
 ---
 
-![AEGIS Dashboard — T2 approval queue in action](assets/dashboard-overview.png)
-*T2 approval queue — pending security actions requiring operator confirmation before execution*
+![AEGIS Incident Management — live incident feed with severity tiers and automated triage](assets/dashboard-overview.png)
+*Incident management — live feed with severity classification, automated triage metadata, and operator review queue*
 
-![AEGIS Whiteboard — agent-proposed session diagrams](assets/whiteboard-sessions.png)
-*Whiteboard — agents propose architecture diagrams; operators review, annotate, and lock them*
+![AEGIS Whiteboard — IDLE_ADVISORY agent proposed platform architecture diagram](assets/whiteboard-sessions.png)
+*Whiteboard — the IDLE_ADVISORY agent proposed this architecture diagram autonomously; an operator reviewed and locked it*
 
 ---
 
