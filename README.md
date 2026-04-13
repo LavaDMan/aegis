@@ -54,22 +54,22 @@ Designed for M&A due diligence, incident response, and fractional CISO engagemen
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                      AEGIS Platform                      │
-│                                                          │
+│                      AEGIS Platform                     │
+│                                                         │
 │  ┌──────────────┐  ┌──────────────┐  ┌───────────────┐  │
 │  │  Agent Layer │  │  Trust Tier  │  │ Mandate Router│  │
 │  │  (Orchestr.) │  │  T0/T1/T2    │  │  (Task Queue) │  │
 │  └──────┬───────┘  └──────┬───────┘  └───────┬───────┘  │
-│         │                 │                   │          │
-│  ┌──────▼─────────────────▼───────────────────▼───────┐  │
-│  │              Intelligence Layer                      │  │
-│  │   Tripartite Memory · Neo4j Graph · Vector Store    │  │
-│  └──────────────────────────┬──────────────────────────┘  │
-│                             │                             │
-│  ┌──────────────────────────▼──────────────────────────┐  │
-│  │              Supply Chain Defense                    │  │
-│  │   Quarantine · Detonation Sandbox · GraphRAG Immune │  │
-│  └─────────────────────────────────────────────────────┘  │
+│         │                 │                  │          │
+│  ┌──────▼─────────────────▼──────────────────▼───────┐  │
+│  │              Intelligence Layer                   │  │
+│  │   Tripartite Memory · Neo4j Graph · Vector Store  │  │
+│  └──────────────────────────┬────────────────────────┘  │
+│                             │                           │
+│  ┌──────────────────────────▼────────────────────────┐  │
+│  │               Supply Chain Defense                │  │
+│  │ Quarantine · Detonation Sandbox · GraphRAG Immune │  │
+│  └───────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────┘
 ```
 
