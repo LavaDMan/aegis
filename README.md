@@ -46,6 +46,8 @@ Full spec: [`docs/trust-tier-spec.md`](docs/trust-tier-spec.md)
 ### 4. Field Kit — M&A Recon Pipeline
 When an organization is acquired or evaluated, the security posture of its network is rarely what the paperwork says. AEGIS Field Kit is a portable recon pipeline that produces a structured, AI-readable security assessment of an unknown network — open ports, service fingerprints, CVE pattern matching, financial risk modeling, and a graph-committed topology — in a single command.
 
+Traditional IT due diligence asks the CTO what his architecture looks like. Field Kit proves it.
+
 Designed for M&A due diligence, incident response, and fractional CISO engagements.
 
 ---
