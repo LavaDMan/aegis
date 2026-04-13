@@ -2,9 +2,21 @@
 
 > **Ground Truth. Not Log Truth.**
 
+**What this is:** AEGIS is a production-grade agentic operations platform running on bare metal at [Alva Systems Architecture LLC](https://alvasystemsarchitecture.com). It is deployed today for active client engagements — M&A security due diligence, infrastructure auditing, and fractional CTO work. This repo documents the public architecture, trust model, and open specifications. The core implementation is proprietary.
+
+---
+
 AEGIS is an agentic operations platform built for organizations that need AI agents to act with precision, accountability, and architectural memory — not just in a single session, but across the full lifecycle of an engagement.
 
 It started as a supply chain immune system. It became the operating layer for everything that runs on top of it.
+
+---
+
+![AEGIS Dashboard — T2 approval queue in action](assets/dashboard-overview.png)
+*T2 approval queue — pending security actions requiring operator confirmation before execution*
+
+![AEGIS Whiteboard — agent-proposed session diagrams](assets/whiteboard-sessions.png)
+*Whiteboard — agents propose architecture diagrams; operators review, annotate, and lock them*
 
 ---
 
@@ -98,13 +110,17 @@ Designed for M&A due diligence, incident response, and fractional CISO engagemen
 
 ---
 
-## Status
+## Work With Us
 
-AEGIS is in active development and production use at [Alva Systems Architecture LLC](https://alvasystemsarchitecture.com) for M&A security due diligence, infrastructure auditing, and fractional CTO engagements.
+AEGIS is in active development and production use at [Alva Systems Architecture LLC](https://alvasystemsarchitecture.com). The platform is not available as a self-hosted product.
 
-The platform is not currently available as a self-hosted product. If you're working on a problem where AEGIS's capabilities are relevant — agentic security, M&A technical due diligence, or building trust-tiered autonomy into your own systems — reach out.
+We take on a small number of engagements at a time:
 
-**Contact:** [alvasystemsarchitecture.com](https://alvasystemsarchitecture.com)
+- **M&A Technical Due Diligence** — Field Kit deployment against a target network before or during acquisition. You get a structured security assessment, CVE findings, financial risk model, and graph-committed topology. The CTO doesn't get to curate the results.
+- **Fractional CTO / Security Advisory** — For organizations evaluating AI automation, building internal agent pipelines, or needing architectural accountability they can show to a board or acquirer.
+- **Trust-Tiered Agent Architecture** — Consulting on implementing the T0/T1/T2 model in your own agentic systems.
+
+**→ [alvasystemsarchitecture.com](https://alvasystemsarchitecture.com)**
 
 ---
 
