@@ -12,7 +12,7 @@ It started as a supply chain immune system. It became the operating layer for ev
 
 Modern AI agents are stateless, trust-blind, and amnesiac. They hallucinate dependencies, forget architectural decisions between sessions, and have no principled model for when to act autonomously versus when to stop and ask. In a security or M&A context, those gaps are not inconveniences — they are liabilities.
 
-**Slopsquatting** alone illustrates the risk: LLMs hallucinate roughly 20% of package dependency names ([UTSA/VT 2025](https://arxiv.org/abs/2506.01010)), with a 43% repetition rate — meaning attackers can predict and pre-register those names on PyPI or npm. Without an interception layer, an autonomous agent will fetch, install, and execute that payload with no human in the loop.
+**Slopsquatting** alone illustrates the risk: LLMs hallucinate roughly 20% of package dependency names ([Spracklen et al., USENIX Security 2025](https://arxiv.org/abs/2406.10279)), with a 43% repetition rate — meaning attackers can predict and pre-register those names on PyPI or npm. Without an interception layer, an autonomous agent will fetch, install, and execute that payload with no human in the loop.
 
 That was the first thing AEGIS was built to stop.
 
